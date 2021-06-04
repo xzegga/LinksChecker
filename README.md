@@ -1,7 +1,7 @@
 # Links Checker
 
 
-LinksChecker is an node web api build completely with raw node.js. No frameworks, no external libraries, no npm, just plane javascript and node runtime. 
+LinksChecker is an node web api built completely with raw node.js. No frameworks, no external libraries, no npm, just plane javascript and node runtime. 
 This app simulate an uptime monitor that allow the users to enter URLs they want to monitored and receive alerts when those resources "go down" or "come back up"
 
 ## Development Environment
