@@ -7,11 +7,11 @@ const http = require('http')
 const https = require('https')
 const config = require('./lib/config')
 const fs = require('fs')
-const unifiedServer = require('./server')
+const server = require('./server')
 
 // Instantiate the HTTP server
 const httpServer = http.createServer(function (req, res) {
-  unifiedServer(req, res)
+  server(req, res)
 });
 
 // Start the HTTP server
@@ -27,7 +27,7 @@ const httpsServerOptions = {
 
 // Instantiate the HTTP server
 const httpsServer = https.createServer(httpsServerOptions, function (req, res) {
-  unifiedServer(req, res)
+  server(req, res)
 });
 
 // Start the HTTP server
