@@ -21,7 +21,7 @@ The following assumes you have all of the recommended tools listed above install
 #### 1. Clone the project:
 
     $ git clone https://github.com/xzegga/linksChecker.git
-    $ cd HTTPChecker
+    $ cd linksChecker
 
 #### 2. If you want to use nvm you can download your node version wiht:
 
