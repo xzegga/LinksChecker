@@ -1,6 +1,6 @@
-!https/
-/https/*
-
+https/*.pem
+.data/users/*.json
+.data/tokens/*.json
 package.json
 node_modules
 .eslintrc.js
