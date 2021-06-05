@@ -1,6 +1,5 @@
-/https/*.*
-/.data/users/*.*
-/.data/tokens/*.*
+!https/
+/https/*
 
 package.json
 node_modules
