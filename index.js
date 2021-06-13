@@ -5,8 +5,8 @@
 // Dependencies
 const http = require('http')
 const https = require('https')
-const config = require('./lib/config')
 const fs = require('fs')
+const config = require('./lib/config')
 const server = require('./server')
 
 // Instantiate the HTTP server
