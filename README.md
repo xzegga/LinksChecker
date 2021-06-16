@@ -28,6 +28,15 @@ The following assumes you have all of the recommended tools listed above install
     $ nvm install 11.0.0
     $ nvm use 11.0.0
 
+#### 3. Set your node environment variables
+
+To make the app send sms messages notifications to the users you need to get a Twilio api credentials. You can get a frial account to test here https://www.twilio.com/
+
+    TWILIO_ACCOUNT_SID
+    TWILIO_AUTH_TOKEN
+    TWILIO_MESSAGING_SERVICE_ID
+    TWILIO_FROM_PHONE
+
 #### 4. Run the development server:
 
     $ node index.js

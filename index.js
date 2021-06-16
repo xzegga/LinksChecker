@@ -8,6 +8,7 @@ const https = require('https')
 const fs = require('fs')
 const config = require('./lib/config')
 const server = require('./server')
+const helpers = require('./lib/helpers')
 
 // Instantiate the HTTP server
 const httpServer = http.createServer(function (req, res) {

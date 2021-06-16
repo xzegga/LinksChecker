@@ -5,3 +5,4 @@ package.json
 node_modules
 .eslintrc.js
 package-lock.json
+.env
